@@ -1,0 +1,143 @@
+html,
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#mobilemenu {
+    width: 100%;
+}
+
+.menubar {
+    width: 100%;
+    background: #333333;
+    padding: 5px;
+    position: fixed;
+}
+
+.menubar li {
+    display: inline-block;
+    background: #faebd7;
+    width: 90px;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 3px;
+}
+
+.menubar li:hover {
+    background: white;
+}
+
+.menubar li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menubar li ul {
+    display: none;
+    padding: 0;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    z-index: 2;
+}
+
+.menubar li:hover ul {
+    display: block;
+}
+
+.menubar li ul li {
+    background: #333333;
+    display: block;
+}
+
+.menubar li ul li a {
+    color: white;
+    white-space: nowrap;
+}
+
+.menubar li ul li:hover {
+    background: #808080;
+}
+
+.jumbotron {
+    height: 40%;
+    background-image: url(why.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron .container {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-transform: uppercase;
+}
+
+.jumbotron .container h1 {
+    font-size: 3em;
+}
+
+.jumbotron .container a {
+    padding: 12px 25px;
+    background: #333333;
+    color: white;
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.supporting {
+    height: auto;
+}
+
+.supporting .container {
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+
+.col {
+    width: 200px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.col h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.col p {
+    font-size: .7em;
+    padding: 5px;
+}
+
+.col a {
+    border: 2px solid black;
+    padding: 7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .9em;
+    color: black;
+}
+
+footer {
+    height: 15vh;
+    background: #333333;
+    color: white;
+}
+
+footer .container {
+    position: relative;
+    top: 45%;
+}
+
+footer .container p {
+    text-transform: uppercase;
+    font-size: .5em;
+    font-weight: bold;
+}
